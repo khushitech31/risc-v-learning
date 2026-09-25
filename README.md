@@ -39,18 +39,6 @@ A processor does not directly understand human language.
 Software and other systems translate human-level tasks into
 instructions that the processor can execute.
 
-# BITWISE OPERATION 
-### AND Operation
-
-AND produces 1 only when both input bits are 1.
-
-```text
-  10110101
-& 10100111
------------
-  10100101
-I understood that bitwise operations work independently on individual bits rather than treating the entire number like normal arithmetic.
-
 ## What is RISC-V?
 
 RISC-V is an Instruction Set Architecture (ISA) based on
@@ -63,6 +51,34 @@ Reduced Instruction Set Computer (RISC) principles.
 - Simple instruction structure
 - Useful for education and research
 
+# 🗃️ RISC-V Registers
 
+Registers are small and fast storage locations inside the processor.
+They are used to hold data and intermediate results while instructions
+are being executed.
 
+## General-Purpose Registers
+
+RISC-V provides **32 general-purpose registers**, named:
+
+`x0` to `x31`
+
+Each register can store a value that can be used by instructions.
+
+---
+
+## 🔹 The Special `x0` Register
+
+The `x0` register is special because it **always contains 0**.
+
+Any value written to `x0` is ignored.
+
+### Example
+
+```asm
+add x5, x3, x0
+x5 = x3 + 0
+x5 = x3
+
+so, x0 can be useful for copying values.
 

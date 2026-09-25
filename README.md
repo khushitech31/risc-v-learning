@@ -18,3 +18,49 @@ implementing and testing small programs using the Venus Simulator.
 - Implement small assembly programs
 - Experiment with the Venus Simulator
 - Document observations and learnings
+
+  # What Are Processors?
+
+A processor is a hardware component that executes instructions
+and performs operations on data.
+
+## Basic Capabilities
+
+- Arithmetic
+- Logic
+- Comparison
+- Memory Access
+- Decision Making
+- Input/Output
+
+## What a Processor Cannot Do Directly
+
+A processor does not directly understand human language.
+Software and other systems translate human-level tasks into
+instructions that the processor can execute.
+
+# Bit-Level Operations
+
+## AND
+
+AND produces 1 only when both input bits are 1.
+
+10110101
+10100111
+--------
+10100101
+I understood that bitwise operations work independently on individual bits rather than treating the entire number like normal arithmetic.
+
+## What is RISC-V?
+
+RISC-V is an Instruction Set Architecture (ISA) based on
+Reduced Instruction Set Computer (RISC) principles.
+
+## Why RISC-V?
+
+- Open standard
+- Modular design
+- Simple instruction structure
+- Useful for education and research
+
+

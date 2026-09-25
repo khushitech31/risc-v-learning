@@ -79,17 +79,38 @@ Any value written to `x0` is ignored.
 add x5, x3, x0
 x5 = x3 + 0
 x5 = x3
+```
 
-**so, x0 can be useful for copying values.**
-### Instruction Execution Cycle
+**So, `x0` can be useful for copying values.**
 
-**A processor repeatedly follows these basic steps:
+## 🔄 Instruction Execution Cycle
 
-1. FETCH
-2. DECODE
-3. EXECUTE
-4. WRITEBACK
-5. REPEAT**
+**A processor repeatedly follows these basic steps:**
+
+1. **FETCH** – Get the next instruction from memory.
+2. **DECODE** – Understand what the instruction means.
+3. **EXECUTE** – Perform the required operation.
+4. **WRITEBACK** – Store the result.
+5. **REPEAT** – Move to the next instruction.
+  Example- add x3, x1, x2
+
+   FETCH
+   ↓
+Get instruction from memory
+
+DECODE
+   ↓
+Understand that it is an ADD instruction
+
+EXECUTE
+   ↓
+x1 + x2
+
+WRITEBACK
+   ↓
+Store result in x3
+   
+   
 
 
 

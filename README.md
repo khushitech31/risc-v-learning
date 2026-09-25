@@ -39,16 +39,16 @@ A processor does not directly understand human language.
 Software and other systems translate human-level tasks into
 instructions that the processor can execute.
 
-# Bit-Level Operations
-
-## AND
+# BITWISE OPERATION 
+### AND Operation
 
 AND produces 1 only when both input bits are 1.
 
-10110101
-10100111
---------
-10100101
+```text
+  10110101
+& 10100111
+-----------
+  10100101
 I understood that bitwise operations work independently on individual bits rather than treating the entire number like normal arithmetic.
 
 ## What is RISC-V?
@@ -62,5 +62,7 @@ Reduced Instruction Set Computer (RISC) principles.
 - Modular design
 - Simple instruction structure
 - Useful for education and research
+
+
 
 

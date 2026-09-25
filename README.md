@@ -80,5 +80,16 @@ add x5, x3, x0
 x5 = x3 + 0
 x5 = x3
 
-so, x0 can be useful for copying values.
+**so, x0 can be useful for copying values.**
+### Instruction Execution Cycle
+
+**A processor repeatedly follows these basic steps:
+
+1. FETCH
+2. DECODE
+3. EXECUTE
+4. WRITEBACK
+5. REPEAT**
+
+
 
